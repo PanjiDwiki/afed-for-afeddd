@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Afeddd ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Quicksand,sans-serif;
+  color:#754b5c;
+  background:linear-gradient(135deg,#fff4f7,#f9dce7,#fff5f8);
+  overflow-x:hidden;
+}
+section{
+  min-height:100vh;
+  padding:55px 20px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+h1,h2{font-family:'Playfair Display',serif;color:#b45f7e}
+h1{font-size:clamp(38px,8vw,65px)}
+h2{font-size:clamp(28px,6vw,42px);margin:15px 0}
+p{font-size:15px;line-height:1.9}
+button{
+  border:0;border-radius:30px;padding:15px 28px;
+  background:#d98ba8;color:white;font-weight:bold;
+  font-family:inherit;cursor:pointer;
+  box-shadow:0 7px 20px #d98ba855;
+  transition:.3s;
+}
+button:hover{transform:translateY(-3px);background:#bd6f8d}
+.opening{background:radial-gradient(circle at top,#fff,#f8dce7)}
+.label{font-size:12px;letter-spacing:3px;color:#c27a96;font-weight:bold}
+.card{
+  width:min(100%,620px);padding:32px 25px;
+  border-radius:25px;background:#ffffffc9;
+  box-shadow:0 15px 45px #b76f8820;
+}
+.letter{text-align:left;margin-top:20px}
+.letter p{margin-bottom:16px}
+.lily{width:125px;height:125px;margin:15px auto;filter:drop-shadow(0 7px 8px #c47b9550);animation:float 4s infinite ease-in-out}
+.lily.small{width:85px;height:85px}
+@keyframes float{50%{transform:translateY(-10px) rotate(3deg)}}
+.photo-frame{
+  width:min(85%,330px);padding:12px;background:white;
+  border-radius:18px;box-shadow:0 12px 35px #a45b7525;
+  transform:rotate(-2deg);margin:25px auto;
+}
+.photo-frame img{width:100%;display:block;border-radius:12px}
+.photo-caption{padding:12px;font-family:'Playfair Display',serif;font-style:italic;color:#b45f7e}
+.divider{color:#d98ba8;font-size:25px;margin:20px}
+.proposal{background:linear-gradient(150deg,#f9e0e9,#fff5f7)}
+.proposal p{max-width:450px;margin:15px auto 25px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.no-button{background:white;color:#b45f7e;border:1px solid #e8b7c9;box-shadow:none}
+#answer{margin-top:28px;font-family:'Playfair Display',serif;font-size:24px;color:#b45f7e}
+footer{padding:25px;text-align:center;background:#fff3f6;font-size:12px}
+.heart{position:fixed;bottom:-30px;color:#d98ba8;pointer-events:none;animation:rise 6s linear forwards;z-index:10}
+@keyframes rise{to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+@media(max-width:480px){section{padding:45px 16px}.card{padding:25px 18px}.lily{width:105px;height:105px}}
+</style>
+</head>
+<body>
+
+<!-- GAMBAR BUNGA LILI TERSIMPAN DI DALAM HTML -->
+<svg width="0" height="0" style="position:absolute">
+<symbol id="lily" viewBox="0 0 160 160">
+<g fill="#fffdfd" stroke="#e8b9c9" stroke-width="1.5">
+<path d="M80 82C38 60 35 18 65 13C84 10 87 49 80 82Z"/>
+<path d="M80 82C91 38 127 15 139 39C148 58 109 76 80 82Z"/>
+<path d="M80 82C125 69 151 91 135 111C122 127 91 99 80 82Z"/>
+<path d="M80 82C99 124 84 151 62 139C43 129 65 96 80 82Z"/>
+<path d="M80 82C41 117 10 104 20 80C29 59 65 72 80 82Z"/>
+<path d="M80 82C43 61 50 28 70 29C88 29 85 63 80 82Z"/>
+</g>
+<g stroke="#d7a0b2" stroke-width="2" stroke-linecap="round">
+<path d="M80 85L64 43M80 85L111 47M80 85L127 91M80 85L84 132M80 85L39 91"/>
+</g>
+<g fill="#e9b65e">
+<circle cx="64" cy="43" r="3"/><circle cx="111" cy="47" r="3"/>
+<circle cx="127" cy="91" r="3"/><circle cx="84" cy="132" r="3"/>
+<circle cx="39" cy="91" r="3"/>
+</g>
+<path d="M80 105Q75 132 80 158" fill="none" stroke="#729b75" stroke-width="4"/>
+<path d="M78 130Q43 112 35 132Q57 145 78 130Z" fill="#8eae86"/>
+<path d="M80 143Q110 119 124 137Q105 154 80 143Z" fill="#769c78"/>
+</symbol>
+</svg>
+
+<!-- HALAMAN PEMBUKA -->
+<section class="opening" id="opening">
+<svg class="lily"><use href="#lily"/></svg>
+<div class="label">A LITTLE MESSAGE FROM PANJUL</div>
+<h1>Hai, Afeddd! ♡</h1>
+<p style="margin:15px 0 28px">Ada sesuatu yang ingin Panjul sampaikan buat kamu...</p>
+<button onclick="openMessage()">Buka pesan dari Panjul ♡</button>
+</section>
+
+<!-- SURAT -->
+<section id="message">
+<div class="card">
+<svg class="lily small"><use href="#lily"/></svg>
+<div class="label">JUST FOR YOU</div>
+<h2>Dear Afeddd,</h2>
+<div class="letter">
+<p>Hai, Afeddd.</p>
+<p>Sebenarnya aku agak bingung harus mulai dari mana. But ada banyak hal yang ingin disampaikan, tapi mungkin yang paling penting itu aku ingin kamu tahu kalau kehadiran kamu punya arti tersendiri.</p>
+<p>Awalnya mungkin semuanya biasa saja. Tapi semakin mengenal kamu, semakin aku ngerasa senang setiap kali bisa ngobrol, bercanda, dan menghabiskan waktu bersama kamu yaa meskipun kita belum pernah ketemu sii.</p>
+<p>aku nggak janji semuanya akan selalu sempurna. Tapi aku ingin mencoba menjalani sesuatu yang baik, saling memahami, saling menghargai, dan saling menjaga.</p>
+<p>Dan hari ini, aku mau nyampein satu pertanyaan sederhana untuk kamu...</p>
+</div>
+<div class="divider">♡ ❀ ♡</div>
+<p><i>With love,</i><br><b>Panjul</b></p>
+</div>
+</section>
+
+<!-- FOTO KENANGAN -->
+<section>
+<h2>Something Special ♡</h2>
+<div class="photo-frame">
+<img src="PANJI.JPG.jpeg" onerror="this.outerHTML='<p style=&quot;padding:40px 10px&quot;>PANJI.JPG.jpeg ♡</p>'">
+<div class="photo-caption">My absolute favorite person </div>
+</div>
+<svg class="lily small"><use href="#lily"/></svg>
+<p>Semoga akan ada lebih banyak cerita indah yang bisa kita buat bersama.</p>
+</section>
+
+<!-- PERTANYAAN -->
+<section class="proposal" id="proposal">
+<svg class="lily"><use href="#lily"/></svg>
+<div class="label">ONE LAST QUESTION</div>
+<h2>Afeddd, mau nggak jadi pacarku? ♡</h2>
+<p>Aku ingin mengenal kamu lebih jauh, berbagi cerita, saling support, dan membuat banyak moments bersama with u.</p>
+<div class="buttons">
+<button onclick="sayYes()">MAU DONG ♡</button>
+<button class="no-button" onclick="sayThink()">PIKIR-PIKIR DULU</button>
+</div>
+<div id="answer"></div>
+</section>
+
+<footer>Made with ♡ by Panjul, especially for Afeddd.</footer>
+
+<script>
+function openMessage(){
+ document.getElementById('message').scrollIntoView({behavior:'smooth'});
+ createHearts();
+}
+function sayYes(){
+ document.getElementById('answer').innerHTML=
+ 'YEEEAY! Terima kasih, Afeddd! ♡<br><small style="font-family:Quicksand;font-size:14px">Mulai hari ini, kita buat cerita indah bersama ya.</small>';
+ createHearts();
+}
+function sayThink(){
+ document.getElementById('answer').innerHTML=
+ 'Nggak apa-apa, aku tunggu jawaban terbaik dari Afeddd. ♡';
+}
+function createHearts(){
+ for(let i=0;i<15;i++){
+  const heart=document.createElement('div');
+  heart.className='heart';
+  heart.innerHTML=Math.random()>.5?'♡':'♥';
+  heart.style.left=Math.random()*100+'vw';
+  heart.style.fontSize=(15+Math.random()*20)+'px';
+  heart.style.animationDuration=(4+Math.random()*4)+'s';
+  document.body.appendChild(heart);
+  setTimeout(()=>heart.remove(),8000);
+ }
+}
+</script>
+</body>
+</html>
